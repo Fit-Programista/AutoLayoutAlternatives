@@ -9,7 +9,7 @@
 import UIKit
 import FlexLayout
 
-final class FlexLayoutViewController: UIViewController {
+final class FlexLayoutViewController: BaseLayoutViewController {
   override func viewDidLayoutSubviews() {
     super.viewDidLayoutSubviews()
     layoutSubviews()
